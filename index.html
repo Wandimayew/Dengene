@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Product Store</h1>
+      <div class="filters" >
+        <input type="text" id="searchInput" placeholder="Search by name..." />
+        <select id="categoryFilter">
+          <option value="">All Categories</option>
+        </select>
+      </div>
+    </header>
+
+    <main>
+      <div id="productList" class="product-list">
+        <div class="main">
+          
+          <h1>Products</h1>
+        </div>
+        <div class="content" id="data">
+          <div class="product" >
+            <p id="productId" class="id">
+              Id: <span id="idSpan">1234</span>
+              <!-- <input type="text" id="input" placeholder="input " /> -->
+            </p>
+            <img src="" alt="mock image" id="productImage" />
+            <h4 class="title">
+              Title: <span id="titleSpan">Title One</span>
+            </h4>
+            <p class="desc" id="descId">
+              Description: <span id="descSpan">This is Description one</span>
+            </p>
+            <p class="category" id="category">
+              Category : <span id="category">Categories one</span>
+            </p>
+            <div class="rate">
+              <p>Rate : <span>5 star</span></p>
+              <p>5</p>
+            </div>
+          </div>
+          <div class="product">
+            <p id="productId" class="id">
+              Id2: <span id="idSpan">1234</span>
+            </p>
+            <img src="" alt="mock image" class="productImage" />
+            <h4 class="title">
+              Title2: <span id="titleSpan">Title One</span>
+            </h4>
+            <p class="desc" id="descId">
+              Description2: <span id="descSpan">This is Description one</span>
+            </p>
+            <p class="category" id="category">
+              Category2 : <span id="category">Categories one</span>
+            </p>
+            <div class="rate">
+              <p>Rate2 : <span>5 star</span></p>
+              <p>2: 5</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Frontend Internship Technical Task</p>
+    </footer>
+    <script src="script.js">
+      
+      // const products=fetchProducts();
+      // //  const productInfo = JSON.parse(document.getElementById("data").text);
+
+      //  const text= document.getElementById("input")
+      //  console.log("Input :", text);
+       
+    </script>
+  </body>
+</html>

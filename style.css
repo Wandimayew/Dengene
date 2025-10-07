@@ -1,0 +1,64 @@
+body {
+  padding: 20px;
+  margin: 20px;
+}
+
+main {
+  /* background-color: rgb(1, 2, 2); */
+}
+
+.product-list {
+  background-color: rgb(154, 154, 226);
+}
+#productList {
+}
+.main {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  /* flex: content; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.product {
+  border-style: solid;
+  border-width: 2px;
+  border-color: blue;
+  border-radius: 10px;
+  box-shadow: 20px;
+  padding: 5px;
+}
+
+.id {
+  font-weight: bolder;
+  font-size: x-large;
+}
+.id span {
+  font-weight: lighter;
+  font-size: large;
+  font-style: oblique;
+}
+
+.title {
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  color: blueviolet;
+  font-size: larger;
+  
+}
+.title span {
+  font-weight: lighter;
+  font-size: large;
+  font-style: normal;
+}
